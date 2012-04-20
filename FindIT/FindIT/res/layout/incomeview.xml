@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="?android:attr/listPreferredItemHeight"
+	android:layout_width="fill_parent" android:orientation="horizontal"
+	android:padding="6dip">
+	<ImageView android:id="@+id/icon_food" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:layout_marginRight="6dip"
+		android:src="@drawable/icon_money" />
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TextView android:id="@+id/toptext" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="22dip" />
+		<TextView android:id="@+id/bottomtext" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+</LinearLayout>
